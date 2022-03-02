@@ -1,9 +1,18 @@
 html{
     background-color: #ffbaba;
 }
+body{
+    margin: 0;
+}
 main{
     background-color: white;
     justify-content: center;
+}
+h2{
+    font-weight: bold;
+    font-size: x-large;
+    margin: 30px 0;
+    text-align: center;
 }
 ul{
     list-style-type: none;
@@ -12,10 +21,11 @@ img{
     max-width: 100%;
     max-height: 100%;
 }
+
 .barra{
     display: flex;
     justify-content: space-between;
-    margin: 10px 0;
+    margin: 10px 50px;
     max-height: 50px;
     border: 3px white solid;
 }
@@ -37,11 +47,31 @@ img{
     color:black;
     background-color: white;
 }
+main{
+    margin: 0 50px;
+}
 .parallax {
     background-image: url("../img/header.jpg");
-    min-height: 500px;
+    max-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.parallax div{
+    font-weight: bold;
+    font-size: x-large;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    padding: 10%;
+}
+.pastel{
+    margin: 0 10% 10% 0;
+    display: flex;
+    justify-content: space-around;
+}
+.pastel img{
+    max-height: 100%;
+    max-width: 30%;
 }

@@ -67,11 +67,20 @@ main{
     padding: 10%;
 }
 .pastel{
-    margin: 0 10% 10% 0;
-    display: flex;
-    justify-content: space-around;
+    margin: 0 50px 10px;
+    padding: 30px 0;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,  1fr);
+    justify-items: center;
+    align-items: center;
 }
 .pastel img{
-    max-height: 100%;
-    max-width: 30%;
+    padding: 10px;
+    max-height: 80%;
+}
+.pastel form{
+    grid-column: 1;
+    grid-row: 2;
 }
